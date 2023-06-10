@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>806,1443.3333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1679.3333333333333,1221.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="50">
@@ -121,11 +121,10 @@
       <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="450,1378.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="450,1156.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="si:FileInfo" Name="currentFile" />
       <Variable x:TypeArguments="njl:JObject" Name="json" />
-      <Variable x:TypeArguments="x:String" Name="currentFileText" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -136,22 +135,40 @@
     <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\getFile.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Functions\getFile.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Path">[in_TransactionItem]</InArgument>
-        <OutArgument x:TypeArguments="si:FileInfo" x:Key="out_File">[currentFile]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Path">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_TransactionItem" />
+        </InArgument>
+        <OutArgument x:TypeArguments="si:FileInfo" x:Key="out_File">
+          <VisualBasicReference x:TypeArguments="si:FileInfo" ExpressionText="currentFile" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="njl:JObject" x:Key="out_JSON">
+          <VisualBasicReference x:TypeArguments="njl:JObject" ExpressionText="json" />
+        </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[currentFile.FullName]" />
-    <ui:ReadTextFile File="{x:Null}" Content="[currentFileText]" DisplayName="Read Text File" FileName="[currentFile.FullName]" sap:VirtualizedContainerService.HintSize="388,82" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
-    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[json]" JsonString="[currentFileText]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\checkIfJsonHasAllNeededAttributes.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Functions\checkIfJsonHasAllNeededAttributes.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">[json]</InArgument>
+        <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">
+          <VisualBasicValue x:TypeArguments="njl:JObject" ExpressionText="json" />
+        </InArgument>
+        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_File">
+          <VisualBasicValue x:TypeArguments="si:FileInfo" ExpressionText="currentFile" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FolderBE">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Folder_BE&quot;).ToString" />
+        </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\checkIfAllAttributesAreFilledAsNeeded.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Functions\checkIfAllAttributesAreFilledAsNeeded.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">
           <VisualBasicValue x:TypeArguments="njl:JObject" ExpressionText="json" />
+        </InArgument>
+        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_File">
+          <VisualBasicValue x:TypeArguments="si:FileInfo" ExpressionText="currentFile" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FolderBE">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Folder_BE&quot;).ToString" />
         </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
@@ -171,5 +188,6 @@
         </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
+    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Ended Process&quot;]" />
   </Sequence>
 </Activity>

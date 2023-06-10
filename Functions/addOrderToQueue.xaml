@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1679.3333333333333,1177.3333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1679.3333333333333,1247.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>uploadJSONToQueue_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -103,7 +103,7 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="uploadJSONToQueue" sap:VirtualizedContainerService.HintSize="450,813.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="uploadJSONToQueue" sap:VirtualizedContainerService.HintSize="450,1182.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="njl:JObject" Name="person" />
       <Variable x:TypeArguments="njl:JObject" Name="addressOld" />
@@ -139,6 +139,8 @@
         <InArgument x:TypeArguments="x:String" x:Key="fileName">[in_File.Name]</InArgument>
       </ui:AddQueueItem.ItemInformation>
     </ui:AddQueueItem>
+    <ui:LogMessage DisplayName="Log Order add to Queue" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Added to Queue: &quot;+in_File.Name]" />
     <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[in_outputFolder]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="388,164.66666666666666" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[in_File.FullName]" />
+    <ui:LogMessage DisplayName="Log move File to OutFolder" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;File: &quot;+in_File.Name +&quot; moved to out Folder&quot;]" />
   </Sequence>
 </Activity>
