@@ -1,0 +1,25 @@
+﻿  {
+	"panr": "002",
+    "prnr": "01120558M07815",
+    "person": {
+      "salutation": "Herr",
+      "title": "Dr.",
+      "firstName": "Max",
+      "lastName": "Mustermann",
+      "birthday": "12.05.1958"
+    },
+    "address_old": {
+      "street": "Hauptstraße",
+      "houseNumber": "123",
+      "zipCode": "12345",
+      "city": "Gärtringen",
+      "country": "Deutschland"
+    },
+    "address_new": {
+      "street": "Hauptstraße",
+      "houseNumber": "1",
+      "zipCode": "71116",
+      "city": "Gärtringen",
+      "country": "Deutschland"
+    }
+  }
