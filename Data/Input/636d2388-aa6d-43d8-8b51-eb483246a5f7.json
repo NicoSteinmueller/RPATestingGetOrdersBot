@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Sabine",
+    "lastName": "Müller",
+    "birthday": "15.03.1932"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "456",
+    "zipCode": "54321",
+    "city": "Potsdam",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Pfizerstraße",
+    "houseNumber": "2E",
+    "zipCode": "70184",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "013",
+  "prnr": "43150332M92054"
+}

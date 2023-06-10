@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Frau",
+    "firstName": "Maria",
+    "lastName": "Iwanowa",
+    "birthday": "08.07.1945"
+  },
+  "addressOld": {
+    "street": "Red Square",
+    "houseNumber": "1",
+    "zipCode": "109012",
+    "city": "Moskau",
+    "country": "Russland"
+  },
+  "addressNew": {
+    "street": "Erlenkamp",
+    "houseNumber": "12",
+    "zipCode": "22087",
+    "city": "Hamburg",
+    "country": "Deutschland"
+  },
+  "panr": "102",
+  "prnr": "03080745I88750"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Alexander",
+    "lastName": "Schmidt",
+    "birthday": "20.05.1983"
+  },
+  "addressOld": {
+    "street": "Kirchstraße",
+    "houseNumber": "10",
+    "zipCode": "54321",
+    "city": "Heldburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Oststraße",
+    "houseNumber": "85",
+    "zipCode": "04317",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "015",
+  "prnr": "46200583S35592"
+}

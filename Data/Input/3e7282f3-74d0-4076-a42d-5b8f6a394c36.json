@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Sandra",
+    "lastName": "Hofmann",
+    "birthday": "10.11.1978"
+  },
+  "addressOld": {
+    "street": "Birkenallee",
+    "houseNumber": "3",
+    "zipCode": "98765",
+    "city": "Bretzenheim",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Eisheiligenstraße",
+    "houseNumber": "72",
+    "zipCode": "50825",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "31101178H97027"
+}

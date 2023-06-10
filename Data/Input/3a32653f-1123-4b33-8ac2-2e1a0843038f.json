@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Alex",
+    "lastName": "Schulz",
+    "birthday": "08.06.1990"
+  },
+  "addressOld": {
+    "street": "Bergstraße",
+    "houseNumber": "10",
+    "zipCode": "98765",
+    "city": "Neuenstadt am Kocher",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Oststraße",
+    "houseNumber": "85",
+    "zipCode": "04317",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "021",
+  "prnr": "48080690S88441"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Maximilian",
+    "lastName": "Schulz",
+    "birthday": "15.12.1978"
+  },
+  "addressOld": {
+    "street": "Marktplatz",
+    "houseNumber": "5",
+    "zipCode": "87654",
+    "city": "München",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Humperdinckstraße",
+    "houseNumber": "3",
+    "zipCode": "44147",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "050",
+  "prnr": "58151278S33561"
+}

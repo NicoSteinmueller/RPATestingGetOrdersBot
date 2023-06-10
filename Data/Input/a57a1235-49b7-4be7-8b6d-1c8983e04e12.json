@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Markus",
+    "lastName": "Hoffmann",
+    "birthday": "08.09.1978"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "3",
+    "zipCode": "54321",
+    "city": "Dollerup",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Traubergstraße",
+    "houseNumber": "9",
+    "zipCode": "70186",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "88080978H36849"
+}

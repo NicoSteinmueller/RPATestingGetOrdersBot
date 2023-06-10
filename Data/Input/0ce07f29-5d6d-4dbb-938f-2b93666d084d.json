@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof. Dr.",
+    "firstName": "Christine",
+    "lastName": "Wagner",
+    "birthday": "12.06.1958"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "7",
+    "zipCode": "54321",
+    "city": "Vlotho",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Geibelstraße",
+    "houseNumber": "38",
+    "zipCode": "22303",
+    "city": "Hamburg",
+    "country": "Deutschland"
+  },
+  "panr": "055",
+  "prnr": "71120658W71889"
+}

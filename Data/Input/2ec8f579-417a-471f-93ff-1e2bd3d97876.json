@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Laura",
+    "lastName": "Schulz",
+    "birthday": "15.06.1980"
+  },
+  "addressOld": {
+    "street": "Musterweg",
+    "houseNumber": "10",
+    "zipCode": "98765",
+    "city": "Eichen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Hoepnerstraße",
+    "houseNumber": "19",
+    "zipCode": "04157",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "021",
+  "prnr": "78150680S74652"
+}

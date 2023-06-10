@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Melanie",
+    "lastName": "Koch",
+    "birthday": "12.05.1920"
+  },
+  "addressOld": {
+    "street": "Ahornstraße",
+    "houseNumber": "15",
+    "zipCode": "54321",
+    "city": "Velbert",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Lerchenstraße",
+    "houseNumber": "51",
+    "zipCode": "70176",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "73120520K76144"
+}

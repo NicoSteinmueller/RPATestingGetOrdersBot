@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Markus",
+    "lastName": "Wagner",
+    "birthday": "02.10.1972"
+  },
+  "addressOld": {
+    "street": "Lindenstraße",
+    "houseNumber": "9",
+    "zipCode": "54321",
+    "city": "Rinteln",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Sommersstraße",
+    "houseNumber": "14",
+    "zipCode": "40476",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "013",
+  "prnr": "45021072W22036"
+}

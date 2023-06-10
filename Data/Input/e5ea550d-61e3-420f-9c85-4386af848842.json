@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Prof.",
+    "firstName": "Alex",
+    "lastName": "Schneider",
+    "birthday": "25.09.1995"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "10",
+    "zipCode": "54321",
+    "city": "Paderborn",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Juan Luis Nougués",
+    "houseNumber": "1400",
+    "zipCode": "4000",
+    "city": "San Miguel de Tucumán",
+    "country": "Argentinien"
+  },
+  "panr": "025",
+  "prnr": "75250995S67047"
+}

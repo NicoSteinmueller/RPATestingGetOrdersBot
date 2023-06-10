@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Sophie",
+    "lastName": "Schulz",
+    "birthday": "28.04.1985"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "7",
+    "zipCode": "12345",
+    "city": "Eckersdorf",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Oststraße",
+    "houseNumber": "85",
+    "zipCode": "04317",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "037",
+  "prnr": "07280485S57513"
+}

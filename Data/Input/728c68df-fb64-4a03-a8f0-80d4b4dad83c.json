@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Markus",
+    "lastName": "Keller",
+    "birthday": "10.09.1920"
+  },
+  "addressOld": {
+    "street": "Lindenstraße",
+    "houseNumber": "111",
+    "zipCode": "12345",
+    "city": "Wittmund",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Kasseler Str.",
+    "houseNumber": "10",
+    "zipCode": "04155",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "002",
+  "prnr": "32100920K32412"
+}

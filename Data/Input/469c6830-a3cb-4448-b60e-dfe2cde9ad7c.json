@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Sophie",
+    "lastName": "Müller",
+    "birthday": "10.09.1982"
+  },
+  "addressOld": {
+    "street": "Feldstraße",
+    "houseNumber": "20",
+    "zipCode": "87654",
+    "city": "Seesen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Schleswiger Str.",
+    "houseNumber": "29",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "026",
+  "prnr": "82100982M92807"
+}

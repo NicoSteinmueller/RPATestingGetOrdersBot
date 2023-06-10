@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Sophie",
+    "lastName": "Schneider",
+    "birthday": "28.06.1945"
+  },
+  "addressOld": {
+    "street": "Am Seeufer",
+    "houseNumber": "42",
+    "zipCode": "98765",
+    "city": "Fridolfing",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Neuerburgstraße",
+    "houseNumber": "5",
+    "zipCode": "51103",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "59280645S60890"
+}

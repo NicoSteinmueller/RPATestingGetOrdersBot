@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Michael",
+    "lastName": "Wagner",
+    "birthday": "07.09.1972"
+  },
+  "addressOld": {
+    "street": "Lindenstraße",
+    "houseNumber": "10",
+    "zipCode": "67890",
+    "city": "Lauenburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Talstraße",
+    "houseNumber": "76",
+    "zipCode": "40215",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "010",
+  "prnr": "47070972W05371"
+}

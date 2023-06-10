@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Julia",
+    "lastName": "Fischer",
+    "birthday": "10.11.1978"
+  },
+  "addressOld": {
+    "street": "Eichenstraße",
+    "houseNumber": "5",
+    "zipCode": "54321",
+    "city": "Ditzingen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Gänsheidestraße",
+    "houseNumber": "49",
+    "zipCode": "70184",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "028",
+  "prnr": "25101178F97861"
+}

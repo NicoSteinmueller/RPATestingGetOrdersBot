@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Maximilian",
+    "lastName": "Lehmann",
+    "birthday": "12.09.1965"
+  },
+  "addressOld": {
+    "street": "Ahornstraße",
+    "houseNumber": "15",
+    "zipCode": "67890",
+    "city": "Buseck",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Karl-Liebknecht-Str.",
+    "houseNumber": "32",
+    "zipCode": "10178",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "84120965L12906"
+}

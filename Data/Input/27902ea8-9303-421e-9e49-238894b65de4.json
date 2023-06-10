@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Laura",
+    "lastName": "Müller",
+    "birthday": "15.05.1980"
+  },
+  "addressOld": {
+    "street": "Ahornweg",
+    "houseNumber": "12",
+    "zipCode": "98765",
+    "city": "Vaterstetten",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Silberburgstraße",
+    "houseNumber": "141",
+    "zipCode": "70176",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "010",
+  "prnr": "83150580M81572"
+}

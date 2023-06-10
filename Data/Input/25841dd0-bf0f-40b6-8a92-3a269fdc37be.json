@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Max",
+    "lastName": "Müller",
+    "birthday": "10.09.1992"
+  },
+  "addressOld": {
+    "street": "Lindenallee",
+    "houseNumber": "30",
+    "zipCode": "54321",
+    "city": "Enger",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Merkurstraße",
+    "houseNumber": "34",
+    "zipCode": "40223",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "32100992M67756"
+}

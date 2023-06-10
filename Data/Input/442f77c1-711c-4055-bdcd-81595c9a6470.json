@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Frau",
+    "firstName": "Maria",
+    "lastName": "Schmidt",
+    "birthday": "28.08.1952"
+  },
+  "addressOld": {
+    "street": "Kurfürstendamm",
+    "houseNumber": "42",
+    "zipCode": "10719",
+    "city": "Regensburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Lærkevej",
+    "houseNumber": "12",
+    "zipCode": "2400",
+    "city": "Copenhagen",
+    "country": "Dänemark"
+  },
+  "panr": "106",
+  "prnr": "31280852S84733"
+}

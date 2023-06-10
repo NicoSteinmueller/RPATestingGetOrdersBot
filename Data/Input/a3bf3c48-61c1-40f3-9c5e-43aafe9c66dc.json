@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof. Dr.",
+    "firstName": "Maximilian",
+    "lastName": "Mayer",
+    "birthday": "10.08.1968"
+  },
+  "addressOld": {
+    "street": "Rathausplatz",
+    "houseNumber": "2",
+    "zipCode": "80331",
+    "city": "München",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Sirkin St",
+    "houseNumber": "32",
+    "zipCode": "26121",
+    "city": "Haifa",
+    "country": "Israel"
+  },
+  "panr": "092",
+  "prnr": "80100868M35752"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Mag.",
+    "firstName": "Julia",
+    "lastName": "Müller",
+    "birthday": "08.09.1926"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "10",
+    "zipCode": "98765",
+    "city": "Varel",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Richard-Wagner-Straße",
+    "houseNumber": "10",
+    "zipCode": "70184",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "040",
+  "prnr": "74080926M79013"
+}

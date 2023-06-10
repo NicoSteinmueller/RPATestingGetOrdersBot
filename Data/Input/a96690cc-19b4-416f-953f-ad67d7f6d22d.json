@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof. Dr.",
+    "firstName": "Helga",
+    "lastName": "Müller",
+    "birthday": "08.09.1956"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "10",
+    "zipCode": "98765",
+    "city": "Hemmingen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Lerchenstraße",
+    "houseNumber": "51",
+    "zipCode": "70176",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "080",
+  "prnr": "50080956M56000"
+}

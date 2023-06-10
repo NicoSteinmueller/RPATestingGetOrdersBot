@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Robin",
+    "lastName": "Meier",
+    "birthday": "05.08.1990"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "3",
+    "zipCode": "23456",
+    "city": "Emmendingen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Pothmorgenweg",
+    "houseNumber": "9",
+    "zipCode": "44369",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "23050890M97990"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Markus",
+    "lastName": "Lehmann",
+    "birthday": "20.11.1982"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "8",
+    "zipCode": "56789",
+    "city": "Augsburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Osa Menor",
+    "houseNumber": "6634",
+    "zipCode": "64109",
+    "city": "Monterrey",
+    "country": "Mexiko"
+  },
+  "panr": "025",
+  "prnr": "05201182L35411"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Signora",
+    "firstName": "Anna",
+    "lastName": "Rossi",
+    "birthday": "18.06.1935"
+  },
+  "addressOld": {
+    "street": "Piazza San Marco",
+    "houseNumber": "1",
+    "zipCode": "30124",
+    "city": "Venedig",
+    "country": "Italien"
+  },
+  "addressNew": {
+    "street": "Cronstettenstraße",
+    "houseNumber": "54",
+    "zipCode": "60322",
+    "city": "Frankfurt",
+    "country": "Deutschland"
+  },
+  "panr": "104",
+  "prnr": "32180635R53621"
+}

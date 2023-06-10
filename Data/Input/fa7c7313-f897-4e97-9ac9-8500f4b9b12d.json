@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Laura",
+    "lastName": "Vogel",
+    "birthday": "28.06.1947"
+  },
+  "addressOld": {
+    "street": "Am See",
+    "houseNumber": "789",
+    "zipCode": "98765",
+    "city": "Lutzerath",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Engelmannweg",
+    "houseNumber": "30",
+    "zipCode": "13403",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "026",
+  "prnr": "97280647V66466"
+}

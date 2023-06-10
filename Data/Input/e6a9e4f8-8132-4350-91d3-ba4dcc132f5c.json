@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Alex",
+    "lastName": "Schulz",
+    "birthday": "15.08.1995"
+  },
+  "addressOld": {
+    "street": "Ahornweg",
+    "houseNumber": "12",
+    "zipCode": "98765",
+    "city": "Liebenburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Falltorstraße",
+    "houseNumber": "68",
+    "zipCode": "60385",
+    "city": "Frankfurt",
+    "country": "Deutschland"
+  },
+  "panr": "012",
+  "prnr": "51150895S68199"
+}

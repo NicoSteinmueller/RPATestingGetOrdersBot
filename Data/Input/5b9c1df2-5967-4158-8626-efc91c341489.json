@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Dr.",
+    "firstName": "Max",
+    "lastName": "Schulz",
+    "birthday": "25.06.1948"
+  },
+  "addressOld": {
+    "street": "Ahornstraße",
+    "houseNumber": "20",
+    "zipCode": "54321",
+    "city": "Olsberg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Helene-Weber-Platz",
+    "houseNumber": "1",
+    "zipCode": "51109",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "037",
+  "prnr": "49250648S56504"
+}

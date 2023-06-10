@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Thomas",
+    "lastName": "Schmidt",
+    "birthday": "22.08.1965"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "7",
+    "zipCode": "12345",
+    "city": "Oberrot",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Heroldstraße",
+    "houseNumber": "32",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "12220865S48377"
+}

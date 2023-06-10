@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Thomas",
+    "lastName": "Schneider",
+    "birthday": "05.10.1982"
+  },
+  "addressOld": {
+    "street": "Rathausplatz",
+    "houseNumber": "5",
+    "zipCode": "87654",
+    "city": "Mettingen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Sommersstraße",
+    "houseNumber": "14",
+    "zipCode": "40476",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "040",
+  "prnr": "65051082S37442"
+}

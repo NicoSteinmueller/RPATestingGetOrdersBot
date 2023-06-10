@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Thomas",
+    "lastName": "Schmidt",
+    "birthday": "21.08.1965"
+  },
+  "addressOld": {
+    "street": "Birkenweg",
+    "houseNumber": "3",
+    "zipCode": "12345",
+    "city": "Hamminkeln",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Fechnerstraße",
+    "houseNumber": "10",
+    "zipCode": "04155",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "012",
+  "prnr": "12210865S18515"
+}

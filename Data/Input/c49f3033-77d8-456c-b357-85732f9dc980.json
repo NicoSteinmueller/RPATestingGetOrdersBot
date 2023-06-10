@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Madame",
+    "firstName": "Marie",
+    "lastName": "Curie",
+    "birthday": "07.11.1927"
+  },
+  "addressOld": {
+    "street": "Rue de Rivoli",
+    "houseNumber": "12",
+    "zipCode": "75001",
+    "city": "Paris",
+    "country": "Frankreich"
+  },
+  "addressNew": {
+    "street": "Augustenstraße",
+    "houseNumber": "63A",
+    "zipCode": "70178",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "096",
+  "prnr": "32071127C76910"
+}

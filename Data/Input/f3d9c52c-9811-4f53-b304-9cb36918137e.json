@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Anna",
+    "lastName": "Schmidt",
+    "birthday": "15.09.1976"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "3",
+    "zipCode": "54321",
+    "city": "Görzke",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Heroldstraße",
+    "houseNumber": "32",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "73150976S98837"
+}

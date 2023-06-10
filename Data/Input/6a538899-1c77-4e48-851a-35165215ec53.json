@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Dr.",
+    "firstName": "Alex",
+    "lastName": "Schmidt",
+    "birthday": "17.03.1990"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "15",
+    "zipCode": "12345",
+    "city": "Emmerich am Rhein",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Karl-Liebknecht-Str.",
+    "houseNumber": "32",
+    "zipCode": "10178",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "702",
+  "prnr": "15170390S51235"
+}

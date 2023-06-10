@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Prof.",
+    "firstName": "Alex",
+    "lastName": "Schmidt",
+    "birthday": "15.07.1990"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "12",
+    "zipCode": "98765",
+    "city": "Zimmernsupra",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Wolfoltstraße",
+    "houseNumber": "11",
+    "zipCode": "80935",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "013",
+  "prnr": "46150790S57555"
+}

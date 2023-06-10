@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof.",
+    "firstName": "Anna",
+    "lastName": "Müller",
+    "birthday": "12.09.1975"
+  },
+  "addressOld": {
+    "street": "Birkenweg",
+    "houseNumber": "8",
+    "zipCode": "98765",
+    "city": "Neustadt (Wied)",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Ritterstraße",
+    "houseNumber": "47",
+    "zipCode": "10969",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "90120975M69005"
+}

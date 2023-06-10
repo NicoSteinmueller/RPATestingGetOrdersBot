@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Laura",
+    "lastName": "Hoffmann",
+    "birthday": "25.04.1988"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "5",
+    "zipCode": "76543",
+    "city": "Villmar",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Wittelsbacherallee",
+    "houseNumber": "158",
+    "zipCode": "60385",
+    "city": "Frankfurt",
+    "country": "Deutschland"
+  },
+  "panr": "021",
+  "prnr": "97250488H79546"
+}

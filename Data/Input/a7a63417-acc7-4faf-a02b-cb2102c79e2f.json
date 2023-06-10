@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Max",
+    "lastName": "Müller",
+    "birthday": "22.03.1925"
+  },
+  "addressOld": {
+    "street": "Sonnenallee",
+    "houseNumber": "45",
+    "zipCode": "12345",
+    "city": "Remshalden",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Queens Cres",
+    "houseNumber": "21",
+    "zipCode": "6050",
+    "city": "Perth",
+    "country": "Australien"
+  },
+  "panr": "018",
+  "prnr": "99220325M41744"
+}

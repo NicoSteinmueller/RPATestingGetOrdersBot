@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Thomas",
+    "lastName": "Schmidt",
+    "birthday": "22.07.1925"
+  },
+  "addressOld": {
+    "street": "Rathausplatz",
+    "houseNumber": "789",
+    "zipCode": "98765",
+    "city": "Magdeburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Koppenstraße",
+    "houseNumber": "8",
+    "zipCode": "10243",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "021",
+  "prnr": "86220725S41866"
+}

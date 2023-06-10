@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Anna",
+    "lastName": "Müller",
+    "birthday": "25.03.1952"
+  },
+  "addressOld": {
+    "street": "Lindenallee",
+    "houseNumber": "8",
+    "zipCode": "45678",
+    "city": "Südbrookmerland",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Spengelpl.",
+    "houseNumber": "4E",
+    "zipCode": "80937",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "35250352M59601"
+}

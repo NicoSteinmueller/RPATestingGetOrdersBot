@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Peter",
+    "lastName": "Schneider",
+    "birthday": "08.12.1950"
+  },
+  "addressOld": {
+    "street": "Bahnhofstraße",
+    "houseNumber": "789",
+    "zipCode": "98765",
+    "city": "Handewitt",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Espenstraße",
+    "houseNumber": "8",
+    "zipCode": "80935",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "010",
+  "prnr": "17081250S06047"
+}

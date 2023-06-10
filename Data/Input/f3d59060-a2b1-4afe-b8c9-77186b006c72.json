@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Julian",
+    "lastName": "Wagner",
+    "birthday": "15.09.1972"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "7",
+    "zipCode": "12345",
+    "city": "Mönchengladbach",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Gravelottestraße",
+    "houseNumber": "16",
+    "zipCode": "40476",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "48150972W34742"
+}

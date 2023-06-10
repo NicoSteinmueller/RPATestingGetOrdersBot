@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Thomas",
+    "lastName": "Schulz",
+    "birthday": "12.04.1975"
+  },
+  "addressOld": {
+    "street": "Lindenstraße",
+    "houseNumber": "10",
+    "zipCode": "13579",
+    "city": "Nohfelden",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Antwerpener Str.",
+    "houseNumber": "35",
+    "zipCode": "50672",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "015",
+  "prnr": "26120475S39667"
+}

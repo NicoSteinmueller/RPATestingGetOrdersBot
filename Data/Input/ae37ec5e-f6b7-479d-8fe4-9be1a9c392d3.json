@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Anna",
+    "lastName": "Schmidt",
+    "birthday": "28.09.1935"
+  },
+  "addressOld": {
+    "street": "Musterweg",
+    "houseNumber": "456",
+    "zipCode": "54321",
+    "city": "Gummersbach",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Silberburgstraße",
+    "houseNumber": "141",
+    "zipCode": "70176",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "026",
+  "prnr": "42280935S57309"
+}

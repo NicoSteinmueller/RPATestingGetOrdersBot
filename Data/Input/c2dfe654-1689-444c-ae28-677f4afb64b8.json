@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Laura",
+    "lastName": "Müller",
+    "birthday": "22.09.1935"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "7",
+    "zipCode": "12345",
+    "city": "Sottrum",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Niederkirchnerstraße",
+    "houseNumber": "5",
+    "zipCode": "10117",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "037",
+  "prnr": "21220935M82921"
+}

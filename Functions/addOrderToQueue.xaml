@@ -115,8 +115,8 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize Person" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[person]" JsonString="[in_Json(&quot;person&quot;).ToString]" />
-    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize Address Old" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_2" JsonObject="[addressOld]" JsonString="[in_Json(&quot;address_old&quot;).ToString]" />
-    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize Address New" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_3" JsonObject="[addressNew]" JsonString="[in_Json(&quot;address_new&quot;).ToString]" />
+    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize Address Old" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_2" JsonObject="[addressOld]" JsonString="[in_Json(&quot;addressOld&quot;).ToString]" />
+    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize Address New" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_3" JsonObject="[addressNew]" JsonString="[in_Json(&quot;addressNew&quot;).ToString]" />
     <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="388,198" sap2010:WorkflowViewState.IdRef="AddQueueItem_4" Priority="Normal" QueueType="[in_queueName]" Reference="[Path.GetFileNameWithoutExtension(in_File.FullName)]">
       <ui:AddQueueItem.ItemInformation>
         <InArgument x:TypeArguments="x:String" x:Key="panr">[in_Json("panr").ToString]</InArgument>

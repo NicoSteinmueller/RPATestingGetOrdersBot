@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Prof.",
+    "firstName": "Alex",
+    "lastName": "Schneider",
+    "birthday": "15.11.1995"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "5",
+    "zipCode": "56789",
+    "city": "Neuruppin",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Schleswiger Str.",
+    "houseNumber": "29",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "18151195S95713"
+}

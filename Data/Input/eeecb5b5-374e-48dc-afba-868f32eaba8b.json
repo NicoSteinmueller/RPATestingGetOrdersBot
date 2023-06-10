@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Max",
+    "lastName": "Müller",
+    "birthday": "20.04.1995"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "7",
+    "zipCode": "12345",
+    "city": "Vechta",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Engelmannweg",
+    "houseNumber": "30",
+    "zipCode": "13403",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "011",
+  "prnr": "75200495M73130"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Sophie",
+    "lastName": "Schneider",
+    "birthday": "20.05.1975"
+  },
+  "addressOld": {
+    "street": "Am Kirchplatz",
+    "houseNumber": "7",
+    "zipCode": "30159",
+    "city": "Hannover",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Gänsheidestraße",
+    "houseNumber": "49",
+    "zipCode": "70184",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "091",
+  "prnr": "13200575S66181"
+}

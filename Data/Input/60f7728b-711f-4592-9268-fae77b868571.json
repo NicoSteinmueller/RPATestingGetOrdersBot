@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Sophie",
+    "lastName": "Wagner",
+    "birthday": "17.11.1963"
+  },
+  "addressOld": {
+    "street": "Kirchstraße",
+    "houseNumber": "10",
+    "zipCode": "98765",
+    "city": "Kandern",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Alsterdorfer Str",
+    "houseNumber": "262",
+    "zipCode": "22297",
+    "city": "Hamburg",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "83171163W50207"
+}

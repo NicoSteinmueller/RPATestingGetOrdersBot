@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Johannes",
+    "lastName": "Wagner",
+    "birthday": "15.12.1948"
+  },
+  "addressOld": {
+    "street": "Marktplatz",
+    "houseNumber": "3",
+    "zipCode": "65432",
+    "city": "Amberg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Oswaldstraße",
+    "houseNumber": "1",
+    "zipCode": "04317",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "090",
+  "prnr": "19151248W38094"
+}

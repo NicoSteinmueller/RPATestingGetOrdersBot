@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Laura",
+    "lastName": "Müller",
+    "birthday": "15.08.1990"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "3",
+    "zipCode": "98765",
+    "city": "Staufenberg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Engelmannweg",
+    "houseNumber": "30",
+    "zipCode": "13403",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "15150890M88245"
+}

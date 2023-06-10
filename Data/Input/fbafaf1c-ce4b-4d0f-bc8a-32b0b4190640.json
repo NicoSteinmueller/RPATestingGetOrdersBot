@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof.",
+    "firstName": "Sophie",
+    "lastName": "Huber",
+    "birthday": "07.12.1968"
+  },
+  "addressOld": {
+    "street": "Rosenstraße",
+    "houseNumber": "7",
+    "zipCode": "56789",
+    "city": "Taufkirchen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Ustyianovycha St",
+    "houseNumber": "85",
+    "zipCode": "79000",
+    "city": "Lviv",
+    "country": "Ukraine"
+  },
+  "panr": "026",
+  "prnr": "80071268H89403"
+}

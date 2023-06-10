@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Mr.",
+    "firstName": "John",
+    "lastName": "Smith",
+    "birthday": "12.03.1955"
+  },
+  "addressOld": {
+    "street": "Broadway",
+    "houseNumber": "123",
+    "zipCode": "10001",
+    "city": "New York",
+    "country": "Vereinigte Staaten von Amerika"
+  },
+  "addressNew": {
+    "street": "Adersstraße",
+    "houseNumber": "4",
+    "zipCode": "40215",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "105",
+  "prnr": "26120355S24077"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Mag.",
+    "firstName": "Elisabeth",
+    "lastName": "Weber",
+    "birthday": "25.08.1942"
+  },
+  "addressOld": {
+    "street": "Am Park",
+    "houseNumber": "7",
+    "zipCode": "54321",
+    "city": "Niederkrüchten",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Stroblstraße",
+    "houseNumber": "10",
+    "zipCode": "80686",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "070",
+  "prnr": "63250842W89694"
+}

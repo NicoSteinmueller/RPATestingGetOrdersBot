@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Hannah",
+    "lastName": "Müller",
+    "birthday": "12.06.1985"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "7",
+    "zipCode": "34567",
+    "city": "Rosenheim",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Fabriciusstraße",
+    "houseNumber": "2",
+    "zipCode": "51065",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "030",
+  "prnr": "63120685M59584"
+}

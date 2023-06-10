@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof.",
+    "firstName": "Julia",
+    "lastName": "Müller",
+    "birthday": "10.08.1975"
+  },
+  "addressOld": {
+    "street": "Am Seeufer",
+    "houseNumber": "7",
+    "zipCode": "98765",
+    "city": "Furtwangen im Schwarzwald",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Espenstraße",
+    "houseNumber": "8",
+    "zipCode": "80935",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "037",
+  "prnr": "75100875M84254"
+}

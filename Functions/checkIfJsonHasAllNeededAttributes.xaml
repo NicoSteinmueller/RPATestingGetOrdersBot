@@ -213,18 +213,21 @@
                                           <av:Point x:Key="ShapeLocation">85,966.6666666666666</av:Point>
                                           <av:Size x:Key="ShapeSize">70,86.66666666666667</av:Size>
                                           <av:PointCollection x:Key="FalseConnector">155,1010 185,1010 185,1140.52 290,1140.52</av:PointCollection>
-                                          <av:PointCollection x:Key="TrueConnector">85,1010 15.333333333333314,1010 15.333333333333314,146.0000000000002 430,146.0000000000002 430,206.66666666666666</av:PointCollection>
+                                          <av:PointCollection x:Key="TrueConnector">85,1010 70,1010 70,936.6666666666666 280,936.6666666666666 280,176.66666666666666 427.6666666666667,176.66666666666666 427.6666666666667,206.66666666666666</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <FlowDecision.True>
-                                        <FlowDecision x:Name="__ReferenceID9" Condition="[in_Json.ContainsKey(&quot;address_old&quot;)]" DisplayName="address-old?" sap:VirtualizedContainerService.HintSize="74.66666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_9">
+                                        <FlowDecision x:Name="__ReferenceID9" DisplayName="addressOld?" sap:VirtualizedContainerService.HintSize="72,86.66666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_9">
+                                          <FlowDecision.Condition>
+                                            <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="in_Json.ContainsKey(&quot;addressOld&quot;)" />
+                                          </FlowDecision.Condition>
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               <av:Point x:Key="ShapeLocation">392.6666666666667,206.66666666666666</av:Point>
-                                              <av:Size x:Key="ShapeSize">74.66666666666667,86.66666666666667</av:Size>
+                                              <av:Size x:Key="ShapeSize">72,86.66666666666667</av:Size>
                                               <av:PointCollection x:Key="TrueConnector">392.6666666666667,250 380,250 380,303.52 410,303.52 410,333.52</av:PointCollection>
-                                              <av:PointCollection x:Key="FalseConnector">467.33333333333337,250 520,250 520,1140.52 490,1140.52</av:PointCollection>
+                                              <av:PointCollection x:Key="FalseConnector">464.6666666666667,250 520,250 520,1140.52 490,1140.52</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                           <FlowDecision.True>
@@ -236,7 +239,7 @@
                                                   <av:PointCollection x:Key="ConnectorLocation">410,387.52 410,396.6666666666667</av:PointCollection>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_4" JsonObject="[addressOld]" JsonString="[in_Json(&quot;address_old&quot;).ToString]" />
+                                              <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_4" JsonObject="[addressOld]" JsonString="[in_Json(&quot;addressOld&quot;).ToString]" />
                                               <FlowStep.Next>
                                                 <FlowDecision x:Name="__ReferenceID10" Condition="[addressOld.ContainsKey(&quot;street&quot;)]" DisplayName="street?" sap:VirtualizedContainerService.HintSize="70,86.66666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_10">
                                                   <sap:WorkflowViewStateService.ViewState>
@@ -293,7 +296,10 @@
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
                                                                   <FlowDecision.True>
-                                                                    <FlowDecision x:Name="__ReferenceID15" Condition="[in_Json.ContainsKey(&quot;address_new&quot;)]" DisplayName="address-new?" sap:VirtualizedContainerService.HintSize="78.66666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_15">
+                                                                    <FlowDecision x:Name="__ReferenceID15" DisplayName="address-new?" sap:VirtualizedContainerService.HintSize="78.66666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_15">
+                                                                      <FlowDecision.Condition>
+                                                                        <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="in_Json.ContainsKey(&quot;addressNew&quot;)" />
+                                                                      </FlowDecision.Condition>
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -312,7 +318,7 @@
                                                                               <av:PointCollection x:Key="ConnectorLocation">790,377 790,407 810,407 810,426.6666666666667</av:PointCollection>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_6" JsonObject="[addressNew]" JsonString="[in_Json(&quot;address_new&quot;).ToString]" />
+                                                                          <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_6" JsonObject="[addressNew]" JsonString="[in_Json(&quot;addressNew&quot;).ToString]" />
                                                                           <FlowStep.Next>
                                                                             <FlowDecision x:Name="__ReferenceID16" Condition="[addressNew.ContainsKey(&quot;street&quot;)]" DisplayName="street?" sap:VirtualizedContainerService.HintSize="70,86.66666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_16">
                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -410,7 +416,7 @@
                                                                                                           <av:PointCollection x:Key="ConnectorLocation">490,1210 540,1210</av:PointCollection>
                                                                                                         </scg:Dictionary>
                                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                                      <ui:LogMessage DisplayName="Log File was moded to Folder_BE" sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;Folder was moved to BE Folder&quot;]">
+                                                                                                      <ui:LogMessage DisplayName="Log File was moded to Folder_BE" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;Folder was moved to BE Folder&quot;]">
                                                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>

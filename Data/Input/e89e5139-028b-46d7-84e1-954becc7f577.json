@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Arthur",
+    "lastName": "Conan Doyle",
+    "birthday": "22.05.1859"
+  },
+  "addressOld": {
+    "street": "Baker Street",
+    "houseNumber": "221B",
+    "zipCode": "NW1 6XE",
+    "city": "London",
+    "country": "Großbritannien"
+  },
+  "addressNew": {
+    "street": "Schleswiger Str.",
+    "houseNumber": "29",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "095",
+  "prnr": "85220559C03301"
+}

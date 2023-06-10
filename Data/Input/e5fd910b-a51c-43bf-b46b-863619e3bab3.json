@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Maximilian",
+    "lastName": "Schmidt",
+    "birthday": "10.12.1977"
+  },
+  "addressOld": {
+    "street": "Buchenweg",
+    "houseNumber": "9",
+    "zipCode": "54321",
+    "city": "Penzberg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Thusneldastraße",
+    "houseNumber": "20",
+    "zipCode": "44149",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "55101277S45122"
+}

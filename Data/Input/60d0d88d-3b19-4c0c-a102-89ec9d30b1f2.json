@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Max",
+    "lastName": "Schulz",
+    "birthday": "25.03.1978"
+  },
+  "addressOld": {
+    "street": "Am Markt",
+    "houseNumber": "15",
+    "zipCode": "45678",
+    "city": "Bremen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Braunschweiger Str.",
+    "houseNumber": "12",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "040",
+  "prnr": "61250378S27380"
+}

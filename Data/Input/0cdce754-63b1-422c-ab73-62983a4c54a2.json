@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Signore",
+    "firstName": "Marco",
+    "lastName": "Polo",
+    "birthday": "15.09.1954"
+  },
+  "addressOld": {
+    "street": "Piazza San Marco",
+    "houseNumber": "1",
+    "zipCode": "30124",
+    "city": "Venedig",
+    "country": "Italien"
+  },
+  "addressNew": {
+    "street": "Helene-Weber-Platz",
+    "houseNumber": "1",
+    "zipCode": "51109",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "100",
+  "prnr": "08150954P25495"
+}

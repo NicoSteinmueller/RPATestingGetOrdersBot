@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Karl",
+    "lastName": "Schneider",
+    "birthday": "12.03.1950"
+  },
+  "addressOld": {
+    "street": "Musterstraße",
+    "houseNumber": "15",
+    "zipCode": "12345",
+    "city": "Aletshausen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Eisheiligenstraße",
+    "houseNumber": "72",
+    "zipCode": "50825",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "060",
+  "prnr": "75120350S33368"
+}

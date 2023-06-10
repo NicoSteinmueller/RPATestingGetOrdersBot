@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Markus",
+    "lastName": "Becker",
+    "birthday": "03.07.1985"
+  },
+  "addressOld": {
+    "street": "Eichenweg",
+    "houseNumber": "12",
+    "zipCode": "98765",
+    "city": "Henfstädt",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Las Tres Carabelas",
+    "houseNumber": "32",
+    "zipCode": "180101",
+    "city": "Ambato",
+    "country": "Ecuador"
+  },
+  "panr": "037",
+  "prnr": "26030785B29921"
+}

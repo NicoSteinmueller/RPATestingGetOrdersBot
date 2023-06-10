@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Stefan",
+    "lastName": "Schmidt",
+    "birthday": "20.09.1955"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "7",
+    "zipCode": "34567",
+    "city": "Ehingen (Donau)",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Peschanaya",
+    "houseNumber": "64",
+    "zipCode": "222518",
+    "city": "Barysaw",
+    "country": "Belarus"
+  },
+  "panr": "018",
+  "prnr": "53200955S28924"
+}

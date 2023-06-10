@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Max",
+    "lastName": "Mustermann",
+    "birthday": "12.05.1958"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "123",
+    "zipCode": "12345",
+    "city": "Gärtringen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Aleea Azuga",
+    "houseNumber": "7",
+    "zipCode": "400453",
+    "city": "Cluj-Napoca",
+    "country": "Rumänien"
+  },
+  "panr": "002",
+  "prnr": "01120558M07815"
+}

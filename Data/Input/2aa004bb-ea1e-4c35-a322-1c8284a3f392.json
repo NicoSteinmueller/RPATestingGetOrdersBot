@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Hans",
+    "lastName": "Schmidt",
+    "birthday": "18.03.1965"
+  },
+  "addressOld": {
+    "street": "Rosenstraße",
+    "houseNumber": "15",
+    "zipCode": "12345",
+    "city": "Sande",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Karlsbader Str.",
+    "houseNumber": "1",
+    "zipCode": "80937",
+    "city": "Munich",
+    "country": "Deutschland"
+  },
+  "panr": "015",
+  "prnr": "36180365S02856"
+}

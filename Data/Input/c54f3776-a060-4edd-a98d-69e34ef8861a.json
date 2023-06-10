@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Sebastian",
+    "lastName": "Kaiser",
+    "birthday": "22.05.1934"
+  },
+  "addressOld": {
+    "street": "Schlossallee",
+    "houseNumber": "12",
+    "zipCode": "54321",
+    "city": "Mamming",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Gögglstraße",
+    "houseNumber": "29",
+    "zipCode": "80997",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "050",
+  "prnr": "85220534K28247"
+}

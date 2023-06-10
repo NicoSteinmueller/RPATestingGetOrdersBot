@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Monsieur",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "birthday": "25.12.1940"
+  },
+  "addressOld": {
+    "street": "Champs-Élysées",
+    "houseNumber": "10",
+    "zipCode": "75008",
+    "city": "Paris",
+    "country": "Frankreich"
+  },
+  "addressNew": {
+    "street": "Eisheiligenstraße",
+    "houseNumber": "72",
+    "zipCode": "50825",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "103",
+  "prnr": "32251240D35788"
+}

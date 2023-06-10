@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof.",
+    "firstName": "Maximilian",
+    "lastName": "Hofmann",
+    "birthday": "05.12.1982"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "3",
+    "zipCode": "56789",
+    "city": "Machern",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Merkurstraße",
+    "houseNumber": "34",
+    "zipCode": "40223",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "14051282H49877"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Prof. Dr.",
+    "firstName": "Max",
+    "lastName": "Mustermann",
+    "birthday": "20.05.1950"
+  },
+  "addressOld": {
+    "street": "Lindenstraße",
+    "houseNumber": "7",
+    "zipCode": "54321",
+    "city": "Peine",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Ritterstraße",
+    "houseNumber": "47",
+    "zipCode": "10969",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "48200550M09175"
+}

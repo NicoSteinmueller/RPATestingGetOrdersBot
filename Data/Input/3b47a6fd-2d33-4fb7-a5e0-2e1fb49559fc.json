@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Max",
+    "lastName": "Schulz",
+    "birthday": "10.04.1988"
+  },
+  "addressOld": {
+    "street": "Bahnhofstraße",
+    "houseNumber": "15",
+    "zipCode": "54321",
+    "city": "Ubstadt-Weiher",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Gravelottestraße",
+    "houseNumber": "16",
+    "zipCode": "40476",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "028",
+  "prnr": "23100488S05792"
+}

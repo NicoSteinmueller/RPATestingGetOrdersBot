@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Dr.",
+    "firstName": "Sam",
+    "lastName": "Wagner",
+    "birthday": "12.06.1992"
+  },
+  "addressOld": {
+    "street": "Ahornstraße",
+    "houseNumber": "10",
+    "zipCode": "54321",
+    "city": "Happurg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Kasseler Str.",
+    "houseNumber": "10",
+    "zipCode": "04155",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "026",
+  "prnr": "24120692W69843"
+}

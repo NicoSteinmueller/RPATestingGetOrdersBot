@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof. Dr.",
+    "firstName": "Anna",
+    "lastName": "Schmidt",
+    "birthday": "15.03.1978"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "15",
+    "zipCode": "12345",
+    "city": "Appenweier",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Talstraße",
+    "houseNumber": "76",
+    "zipCode": "40215",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "016",
+  "prnr": "34150378S97550"
+}

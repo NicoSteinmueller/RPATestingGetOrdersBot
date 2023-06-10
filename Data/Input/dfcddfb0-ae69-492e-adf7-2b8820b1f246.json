@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Karl",
+    "lastName": "Bauer",
+    "birthday": "08.07.1955"
+  },
+  "addressOld": {
+    "street": "Schlossallee",
+    "houseNumber": "10",
+    "zipCode": "70173",
+    "city": "Duisburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Schmutzlerstraße",
+    "houseNumber": "2",
+    "zipCode": "04155",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "094",
+  "prnr": "86080755B23821"
+}

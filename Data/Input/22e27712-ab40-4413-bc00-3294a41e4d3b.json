@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Markus",
+    "lastName": "Schneider",
+    "birthday": "15.08.1985"
+  },
+  "addressOld": {
+    "street": "Rosenweg",
+    "houseNumber": "12",
+    "zipCode": "98765",
+    "city": "Bargteheide",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Schleswiger Str.",
+    "houseNumber": "29",
+    "zipCode": "44145",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "037",
+  "prnr": "65150885S34489"
+}

@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Sophie",
+    "lastName": "Fischer",
+    "birthday": "10.12.1988"
+  },
+  "addressOld": {
+    "street": "Schillerstraße",
+    "houseNumber": "15",
+    "zipCode": "87654",
+    "city": "Brücken (Pfalz)",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Traubergstraße",
+    "houseNumber": "9",
+    "zipCode": "70186",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "44101288F61926"
+}

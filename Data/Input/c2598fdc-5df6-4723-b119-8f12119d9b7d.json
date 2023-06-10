@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Laura",
+    "lastName": "Müller",
+    "birthday": "25.03.1990"
+  },
+  "addressOld": {
+    "street": "Birkenweg",
+    "houseNumber": "7",
+    "zipCode": "12345",
+    "city": "Elsdorf-Westermühlen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Jägerstraße",
+    "houseNumber": "6",
+    "zipCode": "04157",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "07250390M71418"
+}

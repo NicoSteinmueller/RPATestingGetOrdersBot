@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Alex",
+    "lastName": "Müller",
+    "birthday": "03.04.1990"
+  },
+  "addressOld": {
+    "street": "Rosenstraße",
+    "houseNumber": "12",
+    "zipCode": "54321",
+    "city": "Oeversee",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Adersstraße",
+    "houseNumber": "4",
+    "zipCode": "40215",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "015",
+  "prnr": "10030490M86783"
+}

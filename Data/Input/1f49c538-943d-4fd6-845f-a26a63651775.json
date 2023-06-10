@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Finn",
+    "lastName": "Wagner",
+    "birthday": "08.05.1982"
+  },
+  "addressOld": {
+    "street": "Bergstraße",
+    "houseNumber": "9",
+    "zipCode": "87654",
+    "city": "Otzberg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Bandelstraße",
+    "houseNumber": "18",
+    "zipCode": "44149",
+    "city": "Dortmund",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "03080582W20679"
+}

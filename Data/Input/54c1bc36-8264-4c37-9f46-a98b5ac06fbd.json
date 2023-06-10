@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Signore",
+    "firstName": "Leonardo",
+    "lastName": "da Vinci",
+    "birthday": "15.04.1952"
+  },
+  "addressOld": {
+    "street": "Piazza del Duomo",
+    "houseNumber": "1",
+    "zipCode": "20121",
+    "city": "Mailand",
+    "country": "Italien"
+  },
+  "addressNew": {
+    "street": "Merkurstraße",
+    "houseNumber": "34",
+    "zipCode": "40223",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "098",
+  "prnr": "50150452D31841"
+}

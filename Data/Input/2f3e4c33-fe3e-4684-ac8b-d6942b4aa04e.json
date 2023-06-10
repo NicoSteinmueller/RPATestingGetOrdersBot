@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Dr.",
+    "firstName": "Max",
+    "lastName": "Schmidt",
+    "birthday": "03.04.1980"
+  },
+  "addressOld": {
+    "street": "Lindenstraße",
+    "houseNumber": "12",
+    "zipCode": "12345",
+    "city": "Burgebrach",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Am Neumarkt",
+    "houseNumber": "29A",
+    "zipCode": "22041",
+    "city": "Hamburg",
+    "country": "Deutschland"
+  },
+  "panr": "011",
+  "prnr": "53030480S11167"
+}

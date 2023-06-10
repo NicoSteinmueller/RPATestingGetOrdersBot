@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Dr.",
+    "firstName": "Julia",
+    "lastName": "Weber",
+    "birthday": "05.10.1990"
+  },
+  "addressOld": {
+    "street": "Lindenweg",
+    "houseNumber": "7",
+    "zipCode": "56789",
+    "city": "Mitteleschenbach",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Gögglstraße",
+    "houseNumber": "29",
+    "zipCode": "80997",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "018",
+  "prnr": "62051090W85096"
+}

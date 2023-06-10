@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Marie",
+    "firstName": "Sophie",
+    "lastName": "Müller",
+    "birthday": "15.07.1940"
+  },
+  "addressOld": {
+    "street": "Goethestraße",
+    "houseNumber": "12",
+    "zipCode": "98765",
+    "city": "Inden",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Silberburgstraße",
+    "houseNumber": "141",
+    "zipCode": "70176",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "051",
+  "prnr": "75150740M66781"
+}

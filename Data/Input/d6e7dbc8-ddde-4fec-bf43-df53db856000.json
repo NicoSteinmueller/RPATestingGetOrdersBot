@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Sabine",
+    "lastName": "Meier",
+    "birthday": "08.06.1932"
+  },
+  "addressOld": {
+    "street": "Ahornallee",
+    "houseNumber": "3",
+    "zipCode": "67890",
+    "city": "Herbertingen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Neuerburgstraße",
+    "houseNumber": "5",
+    "zipCode": "51103",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "012",
+  "prnr": "32080632M63264"
+}

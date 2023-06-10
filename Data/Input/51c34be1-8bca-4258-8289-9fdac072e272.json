@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Sabine",
+    "lastName": "Müller",
+    "birthday": "15.04.1955"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "55",
+    "zipCode": "54321",
+    "city": "Bad Rappenau",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Norderneyer Str.",
+    "houseNumber": "14",
+    "zipCode": "80809",
+    "city": "Münschen",
+    "country": "Deutschland"
+  },
+  "panr": "009",
+  "prnr": "03150455M55235"
+}

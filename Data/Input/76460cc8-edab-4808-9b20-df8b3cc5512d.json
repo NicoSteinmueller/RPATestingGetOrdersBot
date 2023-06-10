@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "",
+    "firstName": "Michael",
+    "lastName": "Hoffmann",
+    "birthday": "20.09.1962"
+  },
+  "addressOld": {
+    "street": "Kastanienweg",
+    "houseNumber": "8",
+    "zipCode": "54321",
+    "city": "Offenbach am Main",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Helene-Weber-Platz",
+    "houseNumber": "1",
+    "zipCode": "51109",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "021",
+  "prnr": "51200962H42457"
+}

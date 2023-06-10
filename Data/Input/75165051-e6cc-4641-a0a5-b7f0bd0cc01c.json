@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof.",
+    "firstName": "Sophie",
+    "lastName": "Müller",
+    "birthday": "21.09.1955"
+  },
+  "addressOld": {
+    "street": "Birkenallee",
+    "houseNumber": "7",
+    "zipCode": "98765",
+    "city": "Crailsheim",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Silberburgstraße",
+    "houseNumber": "141",
+    "zipCode": "70176",
+    "city": "Stuttgart",
+    "country": "Deutschland"
+  },
+  "panr": "025",
+  "prnr": "48210955M50261"
+}

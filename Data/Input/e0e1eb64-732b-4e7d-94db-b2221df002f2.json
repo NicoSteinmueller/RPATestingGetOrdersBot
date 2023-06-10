@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Laura",
+    "lastName": "Lehmann",
+    "birthday": "10.11.1978"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "7",
+    "zipCode": "54321",
+    "city": "Bad Oeynhausen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Eisenacher Str.",
+    "houseNumber": "78",
+    "zipCode": "04155",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "011",
+  "prnr": "59101178L98216"
+}

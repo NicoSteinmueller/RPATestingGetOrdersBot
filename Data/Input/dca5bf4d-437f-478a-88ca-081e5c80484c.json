@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "",
+    "firstName": "Martha",
+    "lastName": "Schmidt",
+    "birthday": "12.03.1940"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "15",
+    "zipCode": "10178",
+    "city": "Berlin",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Kasseler Str.",
+    "houseNumber": "10",
+    "zipCode": "04155",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "093",
+  "prnr": "46120340S50265"
+}

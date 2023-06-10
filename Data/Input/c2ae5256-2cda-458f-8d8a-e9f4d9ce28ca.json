@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof.",
+    "firstName": "Sophie",
+    "lastName": "Wagner",
+    "birthday": "25.10.1975"
+  },
+  "addressOld": {
+    "street": "Hauptstraße",
+    "houseNumber": "5",
+    "zipCode": "12345",
+    "city": "Gardelegen",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Schanzenstraße",
+    "houseNumber": "3",
+    "zipCode": "51063",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "97251075W52733"
+}

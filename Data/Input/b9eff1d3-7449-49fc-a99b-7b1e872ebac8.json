@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "",
+    "firstName": "Alex",
+    "lastName": "Müller",
+    "birthday": "12.04.1992"
+  },
+  "addressOld": {
+    "street": "Schlossallee",
+    "houseNumber": "1",
+    "zipCode": "54321",
+    "city": "Biedenkopf",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Am Neumarkt",
+    "houseNumber": "29A",
+    "zipCode": "22041",
+    "city": "Hamburg",
+    "country": "Deutschland"
+  },
+  "panr": "010",
+  "prnr": "94120492M83097"
+}

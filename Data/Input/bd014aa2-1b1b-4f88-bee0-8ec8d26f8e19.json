@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Ms.",
+    "firstName": "Audrey",
+    "lastName": "Hepburn",
+    "birthday": "04.05.1929"
+  },
+  "addressOld": {
+    "street": "Broadway",
+    "houseNumber": "123",
+    "zipCode": "10001",
+    "city": "New York",
+    "country": "Vereinigte Staaten von Amerika"
+  },
+  "addressNew": {
+    "street": "Dim. Ipsilantou",
+    "houseNumber": "33",
+    "zipCode": "262 22",
+    "city": "Patras",
+    "country": "Griechenland"
+  },
+  "panr": "097",
+  "prnr": "42040529H64052"
+}

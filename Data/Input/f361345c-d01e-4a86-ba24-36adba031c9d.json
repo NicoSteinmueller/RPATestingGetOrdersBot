@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Frau",
+    "title": "Prof.",
+    "firstName": "Anna",
+    "lastName": "Müller",
+    "birthday": "12.07.1938"
+  },
+  "addressOld": {
+    "street": "Bergstraße",
+    "houseNumber": "3",
+    "zipCode": "98765",
+    "city": "Kleve",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Hauptstraße",
+    "houseNumber": "3d",
+    "zipCode": "04317",
+    "city": "Leipzig",
+    "country": "Deutschland"
+  },
+  "panr": "021",
+  "prnr": "79120738M74973"
+}

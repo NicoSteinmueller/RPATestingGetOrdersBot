@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Herr",
+    "title": "Mr.",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthday": "12.03.1950"
+  },
+  "addressOld": {
+    "street": "Times Square",
+    "houseNumber": "1",
+    "zipCode": "10036",
+    "city": "New York",
+    "country": "Vereinigte Staaten von Amerika"
+  },
+  "addressNew": {
+    "street": "Peterstraße",
+    "houseNumber": "31",
+    "zipCode": "50676",
+    "city": "Köln",
+    "country": "Deutschland"
+  },
+  "panr": "101",
+  "prnr": "36120350D13478"
+}

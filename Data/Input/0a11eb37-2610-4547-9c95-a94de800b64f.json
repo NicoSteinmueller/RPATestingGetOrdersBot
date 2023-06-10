@@ -1,0 +1,25 @@
+{
+  "person": {
+    "salutation": "Divers",
+    "title": "Prof.",
+    "firstName": "Max",
+    "lastName": "Hoffmann",
+    "birthday": "10.12.1972"
+  },
+  "addressOld": {
+    "street": "Parkweg",
+    "houseNumber": "15",
+    "zipCode": "56789",
+    "city": "Hamburg",
+    "country": "Deutschland"
+  },
+  "addressNew": {
+    "street": "Siemensstraße",
+    "houseNumber": "9",
+    "zipCode": "40227",
+    "city": "Düsseldorf",
+    "country": "Deutschland"
+  },
+  "panr": "024",
+  "prnr": "72101272H57038"
+}
