@@ -1,0 +1,8 @@
+{
+  "mockedWorkflows": [
+    {
+      "mockFilePath": "Mocks\\Functions\\checkIfJsonHasAllNeededAttributes_mock.xaml",
+      "sourceWorkflowPath": "Functions\\checkIfJsonHasAllNeededAttributes.xaml"
+    }
+  ]
+}

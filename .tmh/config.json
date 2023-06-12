@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/nstoyiwyht/nstdefault/testmanager_/",
+  "defaultProject": {
+    "id": "775d5672-cc1e-0000-80a5-0b456885a9ae",
+    "name": "RPATesting",
+    "key": "RPAT"
+  }
 }
