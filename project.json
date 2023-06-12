@@ -77,6 +77,28 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\getFile\\getFile_FileMissing_BE.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c0c7adaf-0678-4d81-8223-bfb079c566c6",
+        "dataVariationFilePath": ".variations\\TestDataAttributesNotFilledAsNeeded_Tabelle1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\checkIfAllAttributesAreFilledAsNeeded\\checkAttributes_NotFilledAsNeeded_BE.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f7036642-ca4c-4fd5-a276-60366f69a4d8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\checkIfAllAttributesAreFilledAsNeeded\\checkAttributes_FilledAsNeeded_Success.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "14383066-8291-47c7-adc7-59e3de580377",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\checkIfAllAttributesAreFilledAsNeeded\\checkAttributes_PanrInkorrect_MoveFileAndBE.xaml"
       }
     ],
     "modernBehavior": true

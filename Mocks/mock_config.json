@@ -3,6 +3,10 @@
     {
       "mockFilePath": "Mocks\\Functions\\checkIfJsonHasAllNeededAttributes_mock.xaml",
       "sourceWorkflowPath": "Functions\\checkIfJsonHasAllNeededAttributes.xaml"
+    },
+    {
+      "mockFilePath": "Mocks\\Functions\\checkIfAllAttributesAreFilledAsNeeded_mock.xaml",
+      "sourceWorkflowPath": "Functions\\checkIfAllAttributesAreFilledAsNeeded.xaml"
     }
   ]
 }
