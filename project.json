@@ -63,6 +63,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\checkIfJsonHasAllNeededAttributes\\checkJson_attributeMissing_BE.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "14cc984e-2115-406c-9730-669d87b36c08",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\getFile\\getFile_FileExists_Success.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a0ade5a7-3812-4cba-a201-c58c98fdc38f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\getFile\\getFile_FileMissing_BE.xaml"
       }
     ],
     "modernBehavior": true
