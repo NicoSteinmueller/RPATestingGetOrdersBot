@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
-  "projectVersion": "1.0.140261721",
+  "projectVersion": "1.0.140282484",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -44,53 +44,25 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "5528ae2c-33ae-4179-bfa1-6fea1ad99531",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\Framework\\WorkflowTestCaseTemplate.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "e1c36440-e6b0-4434-b653-71b000bdfed4",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\Framework\\ProcessTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "1ffbefc1-a33a-497f-a9cc-c274bc865d07",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\Framework\\MainTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "0c6d8a63-26bf-41f7-a5ba-222b5d965130",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\Framework\\InitAllSettingsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "c176cdc7-2ada-488b-8395-91fe891be0af",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\Framework\\InitAllApplicationsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "95edeb19-478b-4b09-9438-33e1b6796ff3",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\Framework\\GetTransactionDataTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "b509c35d-490d-40c7-8b71-7fedbe0215e0",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\checkIfJsonHasAllNeededAttributes\\checkJson_JsonComplette_Success.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5ca29865-7477-436d-9565-50426242b52c",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\checkIfJsonHasAllNeededAttributes\\checkJson_PanrMissing_MoveFileAndBE.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "63834b94-c175-464f-9ab6-0d3e80d10c1f",
+        "dataVariationFilePath": ".variations\\TestDataMissingAttribute_Tabelle1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\checkIfJsonHasAllNeededAttributes\\checkJson_attributeMissing_BE.xaml"
       }
     ],
     "modernBehavior": true
