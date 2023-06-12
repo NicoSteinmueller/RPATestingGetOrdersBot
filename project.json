@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
-  "projectVersion": "1.0.140282484",
+  "projectVersion": "1.0.140305752",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -99,6 +99,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\checkIfAllAttributesAreFilledAsNeeded\\checkAttributes_PanrInkorrect_MoveFileAndBE.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3fdbaaa4-653f-4d30-8979-a097516b8bec",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\addOrderToQueue\\addOrder_CompleteInput_Success.xaml"
       }
     ],
     "modernBehavior": true
