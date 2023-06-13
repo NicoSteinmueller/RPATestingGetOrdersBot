@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
-  "projectVersion": "1.0.140305752",
+  "projectVersion": "1.0.140395438",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -106,6 +106,14 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\addOrderToQueue\\addOrder_CompleteInput_Success.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b21e6857-ccdf-4544-a9ac-0fb01028cebb",
+        "dataVariationFilePath": ".variations\\Lasttest_Main_Tabelle1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Lasttest\\Lasttest_Main_xFile.xaml"
       }
     ],
     "modernBehavior": true

@@ -7,6 +7,10 @@
     {
       "filePath": ".variations\\TestDataAttributesNotFilledAsNeeded_Tabelle1.json",
       "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\Lasttest_Main_Tabelle1.json",
+      "dataVariationType": "File"
     }
   ]
 }

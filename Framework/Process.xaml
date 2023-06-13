@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1679.3333333333333,1221.3333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1669.3333333333333,1221.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="50">
@@ -135,41 +135,23 @@
     <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\getFile.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Functions\getFile.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Path">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_TransactionItem" />
-        </InArgument>
-        <OutArgument x:TypeArguments="si:FileInfo" x:Key="out_File">
-          <VisualBasicReference x:TypeArguments="si:FileInfo" ExpressionText="currentFile" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="njl:JObject" x:Key="out_JSON">
-          <VisualBasicReference x:TypeArguments="njl:JObject" ExpressionText="json" />
-        </OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Path">[in_TransactionItem]</InArgument>
+        <OutArgument x:TypeArguments="si:FileInfo" x:Key="out_File">[currentFile]</OutArgument>
+        <OutArgument x:TypeArguments="njl:JObject" x:Key="out_JSON">[json]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\checkIfJsonHasAllNeededAttributes.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Functions\checkIfJsonHasAllNeededAttributes.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">
-          <VisualBasicValue x:TypeArguments="njl:JObject" ExpressionText="json" />
-        </InArgument>
-        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_File">
-          <VisualBasicValue x:TypeArguments="si:FileInfo" ExpressionText="currentFile" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_FolderBE">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Folder_BE&quot;).ToString" />
-        </InArgument>
+        <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">[json]</InArgument>
+        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_File">[currentFile]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FolderBE">[in_Config("out_Folder_BE").ToString]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\checkIfAllAttributesAreFilledAsNeeded.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Functions\checkIfAllAttributesAreFilledAsNeeded.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">
-          <VisualBasicValue x:TypeArguments="njl:JObject" ExpressionText="json" />
-        </InArgument>
-        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_File">
-          <VisualBasicValue x:TypeArguments="si:FileInfo" ExpressionText="currentFile" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_FolderBE">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Folder_BE&quot;).ToString" />
-        </InArgument>
+        <InArgument x:TypeArguments="njl:JObject" x:Key="in_Json">[json]</InArgument>
+        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_File">[currentFile]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FolderBE">[in_Config("out_Folder_BE").ToString]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Functions\addOrderToQueue.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Functions\addOrderToQueue.xaml">
@@ -178,7 +160,7 @@
           <VisualBasicValue x:TypeArguments="njl:JObject" ExpressionText="json" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_outputFolder">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Folder_Success&quot;).ToString" />
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Folder&quot;).ToString" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_queueName">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;out_Queue&quot;).ToString" />

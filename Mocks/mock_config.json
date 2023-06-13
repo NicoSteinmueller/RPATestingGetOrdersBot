@@ -7,6 +7,10 @@
     {
       "mockFilePath": "Mocks\\Functions\\checkIfAllAttributesAreFilledAsNeeded_mock.xaml",
       "sourceWorkflowPath": "Functions\\checkIfAllAttributesAreFilledAsNeeded.xaml"
+    },
+    {
+      "mockFilePath": "Mocks\\Main_mock.xaml",
+      "sourceWorkflowPath": "Main.xaml"
     }
   ]
 }
