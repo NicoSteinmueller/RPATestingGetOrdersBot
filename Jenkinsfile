@@ -49,6 +49,17 @@ pipeline {
 	        stage('Test') {
 	            steps {
 	                echo 'Testing..the workflow...'
+			UiPathTest (
+		        	  testTarget: TestSet('Jenkins'),
+			          orchestratorAddress: "${UIPATH_ORCH_URL}",
+	                	  orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
+	                	  folderName: "${UIPATH_ORCH_FOLDER_NAME}",
+				  timeout: 10000,
+				  parametersFilePath: '',
+			          traceLevel: 'None',
+			          testResultsOutputPath: "result.xml",
+			          credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey')
+		        )
 	            }
 	        }
 	
