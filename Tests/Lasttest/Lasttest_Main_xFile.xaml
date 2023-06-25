@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Lasttest_Main_1xFile" this:Lasttest_Main_1xFile.Runs="1" this:Lasttest_Main_1xFile.TimeInSeconds="1000000" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Lasttest_Main_1xFile" this:Lasttest_Main_1xFile.Runs="1" this:Lasttest_Main_1xFile.TimeInSeconds="1000000" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Runs" Type="InArgument(x:String)" />
     <x:Property Name="TimeInSeconds" Type="InArgument(x:String)" />
@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1669.3333333333333,5614.666666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1668,2136</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Lasttest_Main_1xFile_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -94,7 +94,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Test With Timeout" sap:VirtualizedContainerService.HintSize="721.3333333333334,5550" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Test With Timeout" sap:VirtualizedContainerService.HintSize="646.6666666666666,2071.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="takeScreenshotOnException" />
       <Variable x:TypeArguments="x:TimeSpan" Default="00:05:00" Name="duration" />
@@ -106,14 +106,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="659.3333333333334,4617.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="584.6666666666666,1073.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.json" Folder="Tests/Data" sap:VirtualizedContainerService.HintSize="597.3333333333334,462.6666666666667" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="True" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+      <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.json" Folder="Tests/Data" sap:VirtualizedContainerService.HintSize="484,462.6666666666667" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="True" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
         <ui:ForEachFileX.Body>
           <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
             <ActivityAction.Argument1>
@@ -133,14 +133,14 @@
           </ActivityAction>
         </ui:ForEachFileX.Body>
       </ui:ForEachFileX>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Framework\InitAllSettings.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="597.3333333333334,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\InitAllSettings.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Framework\InitAllSettings.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\InitAllSettings.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="in_ConfigFile">Tests\Data\Config.xlsx</InArgument>
           <InArgument x:TypeArguments="s:String[]" x:Key="in_ConfigSheets">[{"Settings","Constants"}]</InArgument>
           <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="out_Config">[config]</OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <Assign sap:VirtualizedContainerService.HintSize="597.3333333333334,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign sap:VirtualizedContainerService.HintSize="484,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[counter]</OutArgument>
         </Assign.To>
@@ -148,9 +148,9 @@
           <InArgument x:TypeArguments="x:Int32">[Integer.Parse(Runs)]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="597.3333333333334,3723.3333333333335" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+      <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[counter&gt;0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="484,54" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
         <ui:InterruptibleWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="560.6666666666666,3552.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="560.6666666666666,3030.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <Sequence.Variables>
               <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="newAddress" />
               <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="oldAddress" />
@@ -176,7 +176,7 @@
                 <InArgument x:TypeArguments="x:Int32">[counter-1]</InArgument>
               </Assign.Value>
             </Assign>
-            <If Condition="[new Random().Next(1,10)&lt;10]" sap:VirtualizedContainerService.HintSize="498.6666666666667,1399.3333333333333" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[new Random().Next(1,10)&lt;10]" sap:VirtualizedContainerService.HintSize="498.6666666666667,877.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
                 <Sequence sap:VirtualizedContainerService.HintSize="464.6666666666667,693.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
@@ -267,23 +267,26 @@
                 <Sequence sap2010:WorkflowViewState.IdRef="Sequence_13" />
               </If.Else>
             </If>
-            <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="[&quot;Tests/Data/Input/&quot;+fileName+&quot;.json&quot;]" sap:VirtualizedContainerService.HintSize="498.6666666666667,136.66666666666666" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[&quot;{&#xD;&#xA;  'person': {&#xD;&#xA;    'salutation': '&quot;+salutation+&quot;',&#xD;&#xA;    'title': '&quot;+title+&quot;',&#xD;&#xA;    'firstName': '&quot;+firstName+&quot;',&#xD;&#xA;    'lastName': '&quot;+lastName+&quot;',&#xD;&#xA;    'birthday': '&quot;+birthday.ToString(&quot;dd.MM.yyyy&quot;)+&quot;'&#xD;&#xA;  },&#xD;&#xA;  'addressOld': {&#xD;&#xA;    'street': '&quot;+oldAddress(&quot;StreetName&quot;)+&quot;',&#xD;&#xA;    'houseNumber': '&quot;+oldAddress(&quot;StreetNumber&quot;)+&quot;',&#xD;&#xA;    'zipCode': '&quot;+oldAddress(&quot;PostalCode&quot;)+&quot;',&#xD;&#xA;    'city': '&quot;+oldAddress(&quot;City&quot;)+&quot;',&#xD;&#xA;    'country': '&quot;+oldAddress(&quot;Country&quot;)+&quot;'&#xD;&#xA;  },&#xD;&#xA;  'addressNew': {&#xD;&#xA;    'street': '&quot;+newAddress(&quot;StreetName&quot;)+&quot;',&#xD;&#xA;    'houseNumber': '&quot;+newAddress(&quot;StreetNumber&quot;)+&quot;',&#xD;&#xA;    'zipCode': '&quot;+newAddress(&quot;PostalCode&quot;)+&quot;',&#xD;&#xA;    'city': '&quot;+newAddress(&quot;City&quot;)+&quot;',&#xD;&#xA;    'country': '&quot;+newAddress(&quot;Country&quot;)+&quot;'&#xD;&#xA;  },&#xD;&#xA;  'panr': '&quot;+panr.ToString+&quot;',&#xD;&#xA;  'prnr': '&quot;+prnr+&quot;'&#xD;&#xA;}&quot;]" />
+            <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="[&quot;Tests/Data/Input/&quot;+fileName+&quot;.json&quot;]" sap:VirtualizedContainerService.HintSize="498.6666666666667,136.66666666666666" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[&quot;{&#xA;  'person': {&#xA;    'salutation': '&quot;+salutation+&quot;',&#xA;    'title': '&quot;+title+&quot;',&#xA;    'firstName': '&quot;+firstName+&quot;',&#xA;    'lastName': '&quot;+lastName+&quot;',&#xA;    'birthday': '&quot;+birthday.ToString(&quot;dd.MM.yyyy&quot;)+&quot;'&#xA;  },&#xA;  'addressOld': {&#xA;    'street': '&quot;+oldAddress(&quot;StreetName&quot;)+&quot;',&#xA;    'houseNumber': '&quot;+oldAddress(&quot;StreetNumber&quot;)+&quot;',&#xA;    'zipCode': '&quot;+oldAddress(&quot;PostalCode&quot;)+&quot;',&#xA;    'city': '&quot;+oldAddress(&quot;City&quot;)+&quot;',&#xA;    'country': '&quot;+oldAddress(&quot;Country&quot;)+&quot;'&#xA;  },&#xA;  'addressNew': {&#xA;    'street': '&quot;+newAddress(&quot;StreetName&quot;)+&quot;',&#xA;    'houseNumber': '&quot;+newAddress(&quot;StreetNumber&quot;)+&quot;',&#xA;    'zipCode': '&quot;+newAddress(&quot;PostalCode&quot;)+&quot;',&#xA;    'city': '&quot;+newAddress(&quot;City&quot;)+&quot;',&#xA;    'country': '&quot;+newAddress(&quot;Country&quot;)+&quot;'&#xA;  },&#xA;  'panr': '&quot;+panr.ToString+&quot;',&#xA;  'prnr': '&quot;+prnr+&quot;'&#xA;}&quot;]" />
           </Sequence>
         </ui:InterruptibleWhile.Body>
-        <ui:InterruptibleWhile.Condition>
-          <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="counter&gt;0" />
-        </ui:InterruptibleWhile.Condition>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </ui:InterruptibleWhile>
+      <Assign sap:VirtualizedContainerService.HintSize="484,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:TimeSpan">[duration]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:TimeSpan">[TimeSpan.FromSeconds(Integer.Parse(TimeInSeconds))]</InArgument>
+        </Assign.Value>
+      </Assign>
     </Sequence>
-    <Assign sap:VirtualizedContainerService.HintSize="659.3333333333334,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
-      <Assign.To>
-        <OutArgument x:TypeArguments="x:TimeSpan">[duration]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="x:TimeSpan">[TimeSpan.FromSeconds(Integer.Parse(TimeInSeconds))]</InArgument>
-      </Assign.Value>
-    </Assign>
-    <TryCatch DisplayName="Execute" sap:VirtualizedContainerService.HintSize="659.3333333333334,512" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Execute" sap:VirtualizedContainerService.HintSize="584.6666666666666,702.6666666666666" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
         <ui:TimeoutScope DisplayName="Timed Test" sap:VirtualizedContainerService.HintSize="546,463.3333333333333" sap2010:WorkflowViewState.IdRef="TimeoutScope_1" ThrowExceptionAfter="[duration]" TimeoutMessage="[String.Format(&quot;Set timeout {0:hh\:mm\:ss} exceeded&quot;, duration)]">
           <ui:TimeoutScope.Body>
@@ -312,10 +315,10 @@
         </ui:TimeoutScope>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="456,338.6666666666667" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="550.6666666666666,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -323,14 +326,33 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Handle Exception" sap:VirtualizedContainerService.HintSize="450,268" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Handle Exception" sap:VirtualizedContainerService.HintSize="546,598.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Take Screenshot" Expression="[takeScreenshotOnException]" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Failure encountered. Screenshot taken" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="[takeScreenshotOnException]" />
-              <Rethrow DisplayName="Rethrow Exception" sap:VirtualizedContainerService.HintSize="388,25.333333333333332" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
+              <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.json" Folder="Tests/Data" sap:VirtualizedContainerService.HintSize="484,462.6666666666667" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="True" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                <ui:ForEachFileX.Body>
+                  <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                    <ActivityAction.Argument1>
+                      <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                    </ActivityAction.Argument1>
+                    <ActivityAction.Argument2>
+                      <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                    </ActivityAction.Argument2>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,192.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="388,82" sap2010:WorkflowViewState.IdRef="DeleteFileX_3" Path="[CurrentFile.FullName]" />
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachFileX.Body>
+              </ui:ForEachFileX>
+              <Rethrow DisplayName="Rethrow Exception" sap:VirtualizedContainerService.HintSize="484,25.333333333333332" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
             </Sequence>
           </ActivityAction>
         </Catch>
@@ -358,7 +380,7 @@
         </ui:ForEachFileX>
       </TryCatch.Finally>
     </TryCatch>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="659.3333333333334,104.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="584.6666666666666,104.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>

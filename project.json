@@ -11,7 +11,14 @@
     "UiPath.WebAPI.Activities": "[1.16.2]"
   },
   "webServices": [],
-  "entitiesStores": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "NStDefault",
+      "namespace": "RPATestingGetOrdersBot",
+      "uniqueReference": "VPD4JFfkN6Gin+tfVLku047SgjuKzrJyKp2EaLTV6ic="
+    }
+  ],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
   "projectVersion": "1.0.140395438",
