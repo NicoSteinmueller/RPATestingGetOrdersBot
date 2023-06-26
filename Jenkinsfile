@@ -41,7 +41,7 @@ pipeline {
 	                      projectJsonPath: "project.json",
 	                      version: [$class: 'ManualVersionEntry', version: "${MAJOR}.${MINOR}.${env.BUILD_NUMBER}"],
 	                      useOrchestrator: false,
-			      runWorkflowAnalysis: true,
+			      runWorkflowAnalysis: false,
 			      traceLevel: 'None'
 	        )
 	            }
@@ -51,7 +51,7 @@ pipeline {
 	            steps {
 	                echo 'Testing..the workflow...'
 			UiPathTest (
-		        	  testTarget: TestSet('Jenkins'),
+		        	  testTarget: TestProject(testProjectPath: 'project.json'),
 			          orchestratorAddress: "${UIPATH_ORCH_URL}",
 	                	  orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
 	                	  folderName: "${UIPATH_ORCH_FOLDER_NAME}",
