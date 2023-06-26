@@ -41,7 +41,8 @@ pipeline {
 	                      projectJsonPath: "project.json",
 	                      version: [$class: 'ManualVersionEntry', version: "${MAJOR}.${MINOR}.${env.BUILD_NUMBER}"],
 	                      useOrchestrator: false,
-						  traceLevel: 'None'
+			      runWorkflowAnalysis: true,
+			      traceLevel: 'None'
 	        )
 	            }
 	        }
