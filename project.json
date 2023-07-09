@@ -1,5 +1,6 @@
 {
   "name": "RPATestingGetOrdersBot",
+  "projectId": "011641f2-6d70-4dc6-92ef-dbc13baec470",
   "description": "Read InputOrders",
   "main": "Main.xaml",
   "dependencies": {

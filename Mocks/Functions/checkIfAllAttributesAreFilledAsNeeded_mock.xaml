@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1108,1345.3333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1122.6666666666667,1345.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>checkIfJsonHasAllNeededAttributes_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -108,7 +108,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="checkIfJsonHasAllNeededAttributes" sap:VirtualizedContainerService.HintSize="1118,1280.6666666666667" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="checkIfAllAttributesAreFilledAsNeeded" sap:VirtualizedContainerService.HintSize="1118,1280.6666666666667" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="njl:JObject" Name="person" />
       <Variable x:TypeArguments="njl:JObject" Name="addressOld" />
@@ -358,9 +358,9 @@
                                                                                       <av:PointCollection x:Key="ConnectorLocation">410,1147 410,1177 420,1177 420,1183</av:PointCollection>
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                  <utam:MockActivity DisplayName="Mock Move File to Folder_BE" sap:VirtualizedContainerService.HintSize="863.3333333333334,330.6666666666667" sap2010:WorkflowViewState.IdRef="MockActivity_1" MockedActivityIdRef="MoveFile_1">
+                                                                                  <utam:MockActivity DisplayName="Mock Move File to Folder_BE" MockedActivityIdRef="MoveFile_1">
                                                                                     <utam:MockActivity.MockedActivity>
-                                                                                      <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[in_FolderBE]" DisplayName="Move File to Folder_BE" sap:VirtualizedContainerService.HintSize="334,164.66666666666666" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[in_File.FullName]">
+                                                                                      <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[in_FolderBE]" DisplayName="Move File to Folder_BE" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[in_File.FullName]">
                                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -368,7 +368,7 @@
                                                                                         </sap:WorkflowViewStateService.ViewState>
                                                                                       </ui:MoveFile>
                                                                                     </utam:MockActivity.MockedActivity>
-                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="450,255.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="450,255.33333333333334" sap2010:WorkflowViewState.IdRef="">
                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -386,7 +386,7 @@
                                                                                           <av:PointCollection x:Key="ConnectorLocation">520,1210 570,1210</av:PointCollection>
                                                                                         </scg:Dictionary>
                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;Folder was moved to BE Folder&quot;]">
+                                                                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;Folder was moved to BE Folder&quot;]">
                                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
